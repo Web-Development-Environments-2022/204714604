@@ -6,6 +6,13 @@
 	background: white;
 }
 
+*
+{
+	scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+}
+
 #menu li{
 	display: inline-block;
 }
@@ -58,21 +65,16 @@ body{
 
 /* Large rounded green border */
 hr.new {
-	border: 20px solid burlywood;
+	border: 20px solid goldenrod;
 	border-radius: 15px;
   }
-
-
-
-
-
-
 
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 80%;
+	max-height: 70vh;
   }
 
 #about {
