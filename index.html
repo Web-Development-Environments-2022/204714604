@@ -2,6 +2,16 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<script src="https://cdn.tiny.cloud/1/dgsd7xp5my5ayf7zymnvdjz3jpy1cbagm4ar6uu6vaibsdxu/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+<script>
+  tinymce.init({
+    selector: "#subject",
+    plugins: "emoticons",
+    toolbar: "emoticons",
+    toolbar_location: "bottom",
+    menubar: false
+  });
+  </script>
 </head>
 <body>
   
@@ -89,9 +99,7 @@
 <br/>
 <br/>
 <br/>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v13.0" nonce="DYKfawAB"></script>
-<div class="fb-like" data-href="https://web-development-environments-2022.github.io/assignment1-DanielDeri/" data-width="100" data-layout="button_count" data-action="like" data-size="large" data-share="false"></div><br/>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb-development-environments-2022.github.io%2F204714604%2F&width=174&layout=button_count&action=like&size=large&share=true&height=46&appId" width="174" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 <br/>
 </section>
 
@@ -103,6 +111,7 @@
 <hr class="new">
 <h1><u>Scan my code</u></h1>
 <br/>
+<img src="Photos\QRcode.png">
 <br/>
 <br/>
 </section>
